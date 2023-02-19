@@ -1,0 +1,7 @@
+- name: Chapitre 2
+  text: |
+    Vous arrivez à ouvrir la porte et vous entendez comme une musique au bout du couloir.
+    Que faites-vous ?
+  choices:
+    - name: Vous allez voir d'où vient la musique
+    - name: Vous allez à l'opposé de cette musique qui ne vous dit rien qui vaille

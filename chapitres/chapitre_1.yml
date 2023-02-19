@@ -1,0 +1,12 @@
+- name: Chapitre 1
+  text: |
+    Vous vous réveillez dans une pièce sombre. Vous ne savez pas comment vous êtes arrivé ici.
+    Vous remarquez une porte au fond de la pièce. Que faites-vous ?
+  choices:
+    - name: Ouvrir la porte
+    - name: Regarder autour de vous
+
+- name: Chapitre 1.1
+  text: |
+    Vous regarder autour de vous mais ne voyez rien de particulier
+
