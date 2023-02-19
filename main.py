@@ -24,6 +24,7 @@ def afficher_chapitre_text(index):
 
 
 def afficher_chapitre_choices(index):
+    print("Que faites-vous ?")
     try:
         choices = chapitre[index]['choices']
         nb_choices = len(choices)
@@ -69,12 +70,16 @@ while True:
     else:
         simulate_typing("Veuillez répondre par 'oui' ou 'non'.")
 
+# Chapitre 1
 chapitre = ouvrir_chapitre(1)
 user_choice = afficher_chapitre(0)
+while not user_choice == 1:
+    if user_choice == 1:
+        break
+    elif user_choice == 2:
+        afficher_chapitre_text(1)
+        user_choice = afficher_chapitre_choices(0)
 
-if user_choice == 1:
-    chapitre = ouvrir_chapitre(2)
-    user_choice = afficher_chapitre(0)
-elif user_choice == 2:
-    afficher_chapitre(1)
-    # simulate_typing("Vous regarder autour de vous mais ne voyez rien de particulier")
+# Chapitre 2
+chapitre = ouvrir_chapitre(2)
+user_choice = afficher_chapitre(0)
