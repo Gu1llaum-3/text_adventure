@@ -1,6 +1,39 @@
+## Chapitre 2 ##
+# Index 0
 - name: Chapitre 2
   text: |
     Vous arrivez à ouvrir la porte et vous entendez comme une musique au bout du couloir.
   choices:
     - name: Vous allez voir d'où vient la musique
     - name: Vous allez à l'opposé de cette musique qui ne vous dit rien qui vaille
+
+# Index 1
+- name: Chapitre 2.1.0
+  text: |
+    Plus vous vous rapprochez et plus vous vous rendez compte que la musique que vous entendez est sombre, triste.
+  choices:
+    - name: Vous continuez de vous approcher
+    - name: Vous préférez faire demi tour et allez totalement à l'opposé ?
+# Index 2
+- name: Chapitre 2.1.1
+  text: |
+    Vous décidez de continuer.
+    Vous vous retrouvez devant une porte vérouillée de l'extérieur.
+  choices:
+    - name: Vous décidez d'ouvrir la porte
+    - name: Vous frappez à la porte en demandant qui est la personne derrière cette porte
+# Index 3
+- name: Chapitre 2.2.0
+  text: |
+    Plus vous vous rapprochez et plus vous vous rendez compte que la musique que vous entendez est sombre, triste.
+  choices:
+    - name: Vous continuez de vous approcher
+    - name: Vous préférez faire demi tour et aller totalement à l'opposé ?
+# Index 4
+- name: Chapitre 2.2.0
+  text: |
+    Au bout du couloir vous vous retrouvez à une intersection et deux choix s'offrent à vous.
+    Prendre à gauche ou aller tout droit.
+  choices:
+    - name: Vous prennez à gauche
+    - name: Vous allez tout droit
